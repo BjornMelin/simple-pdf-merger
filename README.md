@@ -99,23 +99,44 @@ A modern, user-friendly web application for merging PDF files with a clean and i
 
 ```plaintext
 simple-pdf-merger/
+├── .eslintrc.json
+├── .gitignore
+├── .husky/
+│   ├── _/...
+│   ├── commit-msg
+├── .vscode/
+│   ├── settings.json
 ├── app/
-│   ├── components/
-│   │   └── PDFMerger.tsx      # Main PDF merger component
+│   ├── fonts/
 │   ├── globals.css            # Global styles
 │   ├── layout.tsx             # Root layout with metadata
 │   └── page.tsx               # Home page
+├── commitlint.config.js
 ├── components/
 │   └── ui/                    # shadcn/ui components
 │       ├── button.tsx
 │       └── card.tsx
+│       └── PDFMerger.tsx      # Main PDF merger component
+├── components.json
 ├── lib/
 │   └── utils.ts               # Utility functions
+├── next-env.d.ts
+├── next.config.ts
+├── package.json
+├── pnpm-lock.yaml
+├── postcss.config.mjs
 ├── public/
 │   └── screenshot.png         # App screenshot
+├── README.md
+├── tailwind.config.ts
+├── tsconfig.json
 ├── types/
-│   └── pdf.ts                # Type definitions
-└── package.json
+│   ├── api.ts                 # API type definitions
+│   ├── components.ts          # Component type definitions
+│   ├── events.ts              # Event type definitions
+│   ├── index.ts               # Main type exports
+│   ├── pdf.ts                 # PDF type definitions
+│   └── utils.ts               # Utility type definitions
 ```
 
 ## 🚀 Getting Started
