@@ -40,6 +40,6 @@ build/
 next-env.d.ts
 
 # IDE directories
-.vscode/
+.vscode/*
 !.vscode/settings.json
 .idea/
